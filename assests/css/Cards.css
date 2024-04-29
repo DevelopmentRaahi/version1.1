@@ -448,3 +448,31 @@ color: rgb(31, 28, 28);
 .resText h2,h3{
 color: #1d1d1d;
 }
+
+
+/* TAGS */
+.tagbox{
+  margin: 20px 0px;
+}
+.head-ing{
+  padding: 10px 10px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.162);                   
+}
+.tagbtn{
+  margin: 0;
+  padding: 0;
+}
+.tagbtn a{
+  display: inline-block;
+  border: 1px solid gray;
+  border-radius:22px ;
+  padding: 5px 20px;
+  text-decoration: none;
+  margin: 5px  2px ;
+  color: #4f4e4e;
+  
+}
+.tagbtn a:hover{                    
+  color: #fefefe;   
+   background-color:#4d7b9e;                
+}
