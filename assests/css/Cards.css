@@ -160,6 +160,11 @@ margin-top: 1.2rem;
   color: white;
   padding: 0.5rem 1rem;
 }
+.sub-content-post h4 {
+  background-color: #617293;
+  color: white;
+  padding: 0.5rem 1rem;
+}
 .firstsix{
   font-size: 0.9rem;
 }
