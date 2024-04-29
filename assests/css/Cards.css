@@ -477,3 +477,9 @@ color: #1d1d1d;
    background-color:#4d7b9e;   
    transition: all 0.4s ease-in;                
 }
+
+/* card links */
+.dec-none{
+  text-decoration: none;
+  font-weight: 600;
+}
