@@ -474,5 +474,6 @@ color: #1d1d1d;
 }
 .tagbtn a:hover{                    
   color: #fefefe;   
-   background-color:#4d7b9e;                
+   background-color:#4d7b9e;   
+   transition: all 0.4s ease-in;                
 }
