@@ -526,3 +526,13 @@ color: #1d1d1d;
   transform: scaleY(105%), scaleY(102%);
   transition: all 0.6s linear;
 }
+.navbtn{
+  transition: all 0.5s;
+}
+button{
+  transition: all 0.6s !important;
+}
+.navbtn:hover, button:hover{
+  transform: translateY(-4px);
+  transition: all 0.6s;
+}
