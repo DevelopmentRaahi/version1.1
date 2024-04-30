@@ -197,20 +197,22 @@ margin-top: 1.2rem;
 h1 h2 h3 h4 h5 h6{
   font-family: "Inter", sans-serif;
 }
-.card:hover{
+/* .card:hover{
   margin-bottom: 2px;
-  transition: all 2s ease-in;
+  transition: all 2s ease-in; 
+  
 }
+  */
 .card-img-top{
   width: 90rem;
   height:90%;
   padding: 2px 1px;
 }
-.card-img-top:hover{
+/* .card-img-top:hover{
   height: 101%;
   transition: all 2s ease-in;
   box-sizing: border-box;
-}
+} */
 
 /* preheader */
 .pre-main{
@@ -305,11 +307,11 @@ display: none;
 .line-bred li{
   padding-right: 7px;
 }
-.card-title:hover{
+/* .card-title:hover{
   color: #3f0db5;
-  font-weight: 700;
+ transform: scale(101%);
   transition: all 0.3s linear;
-}
+} */
 /* footer */
 
 .main-icons{
@@ -513,4 +515,14 @@ color: #1d1d1d;
     font-size: 12px !important;
   }
  
+}
+.cardimg{
+  transition: all 0.5s linear;
+}
+
+.cardimg:hover{
+  box-shadow: 4px 4px 10px rgba(38, 38, 38, 0.375);             
+  transform: translateY(-8px);
+  transform: scaleY(105%), scaleY(102%);
+  transition: all 0.6s linear;
 }
