@@ -497,6 +497,9 @@ footer,.footer-section{
 .wraptext{
   display:block;
 }
+.hidelogo {
+  display: none;
+}
 @media  (max-width:600px) {
   .footer-end{
     font-size: 14px;
@@ -520,7 +523,7 @@ footer,.footer-section{
 .main-icon{
  justify-content: flex-start;
 }
-div p {
+.resText > p {
   text-align: left;
 }
 .resText ul li {
@@ -529,4 +532,5 @@ div p {
 .wraptext{
   display: inline;
 }
+
 }
