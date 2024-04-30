@@ -246,25 +246,7 @@ h1 h2 h3 h4 h5 h6{
   justify-content: space-between;
   align-items: center;
 }
-@media  (min-width: 600px) and (max-width:900px){
-  .textNav span{
-    font-size: 21px;
-  }
-  .ulset li a, .supprtnum{
-    font-size: 13px;
 
-  }
-  .ulset{
-    display: inline-block;
-    padding: 0px 4px;
-  }
-  .navbtn{
-    padding: 4px 10px;
-    font-size: 13px;
-  }
- 
- 
-}
 
 @media  (max-width: 600px) {
   .textNav, .supprtnum{
@@ -501,4 +483,34 @@ color: #1d1d1d;
 .dec-none{
   text-decoration: none;
   font-weight: 600;
+}
+@media only screen and (max-width: 992px){
+  .textNav span{
+    font-size: 21px;
+  }
+  .ulset li a, .supprtnum{
+    font-size: 13px;
+
+  }
+  .ulset{
+    display: grid !important;
+    padding: 0px;
+    line-height: 1.2rem;
+    font-size: 13px;
+  }
+  .navbtn{
+    padding: 4px 10px;
+    font-size: 13px;
+  }
+  .textNav  {
+   padding:0px 5px;
+  }
+  .ulset li{
+    padding: 0px;
+    margin: 0px;
+  }
+  .supprtnum div{
+    font-size: 12px !important;
+  }
+ 
 }
