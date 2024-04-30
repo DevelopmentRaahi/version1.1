@@ -127,3 +127,34 @@
        background-color: #dedede80;
    }
 }
+
+@media only screen and (max-width: 992px){
+    .textNav span{
+      font-size: 21px;
+    }
+    .ulset li a, .supprtnum{
+      font-size: 13px;
+  
+    }
+    .ulset{
+      display: grid !important;
+      padding: 0px;
+      line-height: 1.2rem;
+      font-size: 13px;
+    }
+    .navbtn{
+      padding: 4px 10px;
+      font-size: 13px;
+    }
+    .textNav  {
+     padding:0px 5px;
+    }
+    .ulset li{
+      padding: 0px;
+      margin: 0px;
+    }
+    .supprtnum div{
+      font-size: 12px !important;
+    }
+   
+  }
