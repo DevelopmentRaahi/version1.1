@@ -246,6 +246,15 @@ h1 h2 h3 h4 h5 h6{
   justify-content: space-between;
   align-items: center;
 }
+@media only screen and (min-width: 600px) {
+  .textNav{
+    display: none;
+  }
+  .ulset li a, .supprtnum{
+    font-size: 14px;
+
+  }
+}
 
 @media  (max-width: 600px) {
   .textNav, .supprtnum{
