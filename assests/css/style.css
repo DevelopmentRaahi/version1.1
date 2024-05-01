@@ -294,6 +294,7 @@ footer ul>p {
     background-color: #c6aaaa3e;
     margin: 5px;
     transition: all 0.5s;
+    border: 1px solid rgba(128, 128, 128, 0.205);
 }
 .boxstyle:hover {
   box-shadow: 4px 3px 7px rgba(38, 38, 38, 0.375);             
