@@ -316,11 +316,14 @@ footer ul>p {
 
 .smallBox p {
     font-size: 0.8rem;
-    padding: 2rem 2rem;
+    padding: 0.5rem 1rem;
 }
 
 .boxstyle {
     padding: 2rem;
+}
+.boxstyle h2{
+  font-size: 1.7rem;
 }
   .hideline {
       display: none;
