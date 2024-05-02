@@ -517,14 +517,14 @@ color: #1d1d1d;
  
 }
 .cardimg{
-  transition: all 0.5s linear;
+  transition: all 0.2s linear !important;
 }
 
 .cardimg:hover{
   box-shadow: 4px 4px 10px rgba(38, 38, 38, 0.375);             
-  transform: translateY(-8px);
-  transform: scaleY(105%), scaleY(102%);
-  transition: all 0.6s linear;
+  transform: translateY(-5px);
+  transform: scaleY(107%), scaleX(103%);
+  transition: all  ease-in !important;
 }
 .navbtn{
   transition: all 0.5s;
